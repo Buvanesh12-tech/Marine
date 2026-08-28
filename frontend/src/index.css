@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom adjustments for Leaflet maps to look better inside dark mode dashboard */
+.leaflet-container {
+  background: #111827 !important;
+  border-radius: 0.5rem;
+}
+
+.leaflet-bar a {
+  background-color: #1f2937 !important;
+  color: #f3f4f6 !important;
+  border-color: #374151 !important;
+}
+
+.leaflet-bar a:hover {
+  background-color: #374151 !important;
+}

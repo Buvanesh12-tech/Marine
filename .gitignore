@@ -1,0 +1,45 @@
+# Node.js dependencies
+node_modules/
+dist/
+build/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Python virtual environments & runtime
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Database files
+*.db
+*.db-journal
+*.sqlite3
+
+# Uploads & temporary runs (keep folders but ignore contents)
+backend/static/uploads/*
+backend/static/annotated/*
+!backend/static/uploads/.gitkeep
+!backend/static/annotated/.gitkeep
+
+# IDEs & OS system files
+.DS_Store
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.tmp
+*.bak
+*.backup
